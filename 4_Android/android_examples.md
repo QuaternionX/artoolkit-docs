@@ -1,3 +1,10 @@
+---
+uri: android-examples
+meta_title: Android Example AR Applications
+menu_title: Example Applications
+description: If you are not planning on altering any native code then you do not need to consult this section or install the Android NDK.
+---
+
 #Android Examples
 ARToolKit includes a number of fully-working examples on Android that demonstrate basic and advanced techniques. You can copy and build on the examples to create your own application.
 

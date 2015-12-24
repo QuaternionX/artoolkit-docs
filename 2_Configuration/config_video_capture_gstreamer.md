@@ -1,3 +1,10 @@
+---
+uri: configuring-gstreamer-video-capture
+meta_title: Configuring GStreamer Video Capture in ARToolKit
+menu_title: Configuring GStreamer Video Capture
+description: A variety of GStreamer pipelines can be constructed, for example to pull video from a webcam, local file, or network stream.
+---
+
 # Configuring GStreamer Video Capture in ARToolKit
 
 A variety of GStreamer pipelines can be constructed, for example to pull video from a webcam, local file, or network stream. These are the important points to observe regarding where ARToolKit fits into a GStreamer pipeline:

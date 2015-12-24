@@ -1,3 +1,10 @@
+---
+uri: artoolkit-for-unity
+meta_title: ARToolKit Plugin for Unity
+menu_title: About ARToolKit for Unity
+description: ARToolKit for Unity is a plugin for the [Unity][unity] game engine that integrate's ARToolKit's augmented reality tracking with Unity's graphical and game development features.
+---
+
 #ARToolKit for Unity
 ARToolKit for Unity is a plugin for the [Unity][unity] game engine that integrate's ARToolKit's augmented reality [tracking][marker_about] with Unity's graphical and game development features. ARToolKit is a computer vision library that provides the tracking functionality required to build augmented reality applications, and ARToolKit for Unity extends the tools that content creators are already using, simplifying the process of creating AR applications. With ARToolKit for Unity, creators building games, visualizations, scientific, or marketing applications can easily build interactive AR leveraging Unity's strengths in cross platform support (namely [OS X][unity_on_osx], [Windows][unity_on_windows], [Android][unity_on_android], and [iOS][unity_on_ios]), powerful scripting capabilities, simple drag-and-drop editing, and a strong support community. Furthermore, ARToolKit and Unity work seamlessly so that you can deploy to all four platforms from the same Unity project.
 
@@ -40,14 +47,14 @@ You do not need to do a single line of scripting to begin working with ARToolKit
 [unity]:http://www.unity3d.com
 [unity_forums]:http://forum.unity3d.com/
 [unity_answers]:http://answers.unity3d.com/index.html
-[unity_low_level_api]: 6_Unity:unity_low_level_api
-[unity_getting_started]: 6_Unity:unity_getting_started
-[unity_on_osx]: 6_Unity:unity_on_osx
-[unity_on_windows]: 6_Unity:unity_on_windows
-[unity_on_android]: 6_Unity:unity_on_android
-[unity_on_ios]: 6_Unity:unity_on_ios
-[unity_getting_started]: 6_Unity:unity_getting_started
-[unity_scripts]: 6_Unity:unity_scripts
-[marker_about]: 3_Marker_Training:marker_about
+[unity_low_level_api]: ../6_Unity/unity_low_level_api.md
+[unity_getting_started]: ../6_Unity/unity_getting_started.md
+[unity_on_osx]: ../6_Unity/unity_on_osx.md
+[unity_on_windows]: ../6_Unity/unity_on_windows.md
+[unity_on_android]: ../6_Unity/unity_on_android.md
+[unity_on_ios]: ../6_Unity/unity_on_ios.md
+[unity_getting_started]: ../6_Unity/unity_getting_started.md
+[unity_scripts]: ../6_Unity/unity_scripts.md
+[marker_about]: ../3_Marker_Training/marker_about.md
 
-[helicopter]: :unityhelicopter.png
+[helicopter]: ../_media/unityhelicopter.png

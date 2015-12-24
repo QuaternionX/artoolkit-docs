@@ -1,3 +1,10 @@
+---
+uri: using-the-camera-on-ios
+meta_title: Using the Camera on iOS
+menu_title: Using the Camera
+description: ARToolKit for iOS offers a wide variety of options for control of the cameras on the device, and the stream coming from them.
+---
+
 #Using the Camera on iOS
 ARToolKit for iOS offers a wide variety of options for control of the cameras on the device, and the stream coming from them.
 
@@ -76,5 +83,5 @@ or can be registered (under an alternative name) as the receiver of an NSNotific
 -   Photo capture may disrupt focus, exposure and white balance of the video stream capture.
 -   A shutter sound plays during photo capture. This sound is played by the operating system, and cannot be disabled, although it will be silent if the device is muted.
 
-[config_video_capture]: 2_Configuration:config_video_capture
-[config_camera_calibration]: 2_Configuration:config_camera_calibration
+[config_video_capture]: ../2_Configuration/config_video_capture.md
+[config_camera_calibration]: ../2_Configuration/config_camera_calibration.md

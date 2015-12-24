@@ -1,7 +1,14 @@
+---
+uri: camera-calibration
+meta_title: Calibrating Your Camera For Use With ARToolKit
+menu_title: Calibrating Your Camera
+description: In the ARToolKit software, default camera properties are contained in the camera parameter file camera_para.dat, that is read in each time an application is started.
+---
+
 #Calibrating Your Camera
 In the ARToolKit software, default camera properties are contained in the camera parameter file camera_para.dat, that is read in each time an application is started. These parameters are sufficient for basic tracking for a wide range of different cameras. However, to get best tracking accuracy, particularly when looking directly onto a flat marker, it is important to calibrate your camera. As well as helping tracking accuracy and reducing jitter, in a video-see through AR interface, the video image can be warped to remove the camera's lens distortion.
 
-![Beginning calibration with the chessboard][Beginning_calibration_with_the_chessboard]
+![Beginning calibration with the chessboard][beginning_calibration_with_the_chessboard]
 
 Using a very simple camera calibration technique it is possible to generate a separate parameter file for the specific camera(s) that are being used. This page presents how to use the utility programs included with ARToolKit to calibrate your video camera.
 
@@ -58,14 +65,14 @@ calib_camera.exe --help
 
 The help text is reproduced here:
 <pre>
-    Usage: ./calib_camera [options]
-    Options:
-      --vconf <video parameter for the camera>
-      -cornerx=n: specify the number of corners on chessboard in X direction.
-      -cornery=n: specify the number of corners on chessboard in Y direction.
-      -imagenum=n: specify the number of images captured for calibration.
-      -pattwidth=n: specify the square width in the chessbaord.
-      -h -help --help: show this message
+Usage: ./calib_camera [options]
+Options:
+  --vconf [video parameter for the camera]
+  -cornerx=n: specify the number of corners on chessboard in X direction.
+  -cornery=n: specify the number of corners on chessboard in Y direction.
+  -imagenum=n: specify the number of images captured for calibration.
+  -pattwidth=n: specify the square width in the chessbaord.
+  -h -help --help: show this message
 </pre>
 
 ###Optional - Specifying Options for Video Configuration
@@ -82,14 +89,17 @@ If you use the video configuration to select a video size different from that wh
 Calibration requires the capturing of a series of images. In the top-left corner of the capture window is displayed the number of images captured so far. Point the camera at the chessboard grid, and the inner corners of the squares will be highlighted with "X" marks and numbered.
 
 When the camera can clearly see all the intermediate corners, the X marks turn RED, and a calibration image can be captured:
+
 ![A good view of the calibration board, ready to capture.][Calibration_example_OK_1]
 
 If some of the corners are obscured by the edges of the camera frame, or poor lighting or reflection, the crosses will be GREEN, and no calibration image can be captured until the optical conditions are changed.
+
 ![A poor view of the calibration board, NOT ready to capture.][Calibration_example_not_OK]
 
 Once you have an image with all red crosses, you can press the space bar on the keyboard. The image will be captured, and the locations of the X points will be printed to the terminal window, and the counter will increment.
 
 In order to obtain a good calibration for the camera, it is important to obtain images of the calibration board at a variety of angles to the camera lens. The images below give examples of the configurations of the calibration board you should try to obtain. Note that these involve holding the camera at different angles to the board, including upside-down:
+
 ![Calibration example OK 1][example OK 1]
 ![Calibration example OK 2][example OK 2]
 ![Calibration example OK 3][example OK 3]
@@ -134,16 +144,16 @@ To use your new calibration file, just replace the default camera_para.dat file 
 ## Further Reading - Stereo Camera Calibration
 If calibrating a stereo camera, calibrate each eye separately first, saving the parameters, then run the program calib_stereo to perform the final step of [inter-ocular calibration][3].
 
-[2]: http://artoolkit.org/docs/Calibration_chessboard.pdf
-[3]: 8_Advanced_Topics:config_camera_stereo_tracking
+[2]: ../_media/Calibration_chessboard.pdf
+[3]: ../8_Advanced_Topics/config_camera_stereo_tracking.md
 
-[Beginning_calibration_with_the_chessboard]: :beginning_calibration_with_the_chessboard.jpg
-[Chessboard_ready_for_calibration]: :chessboard_ready_for_calibration.jpg
-[Calibration_example_OK_1]: :calibration_example_ok_1.jpg
-[Calibration_example_not_OK]: :calibration_example_not_ok.jpg
-[example OK 1]: :calibration_example_ok_1.jpg
-[example OK 2]: :calibration_example_ok_2.jpg
-[example OK 3]: :calibration_example_ok_3.jpg
-[example OK 4]: :calibration_example_ok_4.jpg
-[example OK 5]: :calibration_example_ok_5.jpg
-[example OK 6]: :calibration_example_ok_6.jpg
+[beginning_calibration_with_the_chessboard]: ../_media/beginning_calibration_with_the_chessboard.jpg
+[Chessboard_ready_for_calibration]: ../_media/chessboard_ready_for_calibration.jpg
+[Calibration_example_OK_1]: ../_media/calibration_example_ok_1.jpg
+[Calibration_example_not_OK]: ../_media/calibration_example_not_ok.jpg
+[example OK 1]: ../_media/calibration_example_ok_1.jpg
+[example OK 2]: ../_media/calibration_example_ok_2.jpg
+[example OK 3]: ../_media/calibration_example_ok_3.jpg
+[example OK 4]: ../_media/calibration_example_ok_4.jpg
+[example OK 5]: ../_media/calibration_example_ok_5.jpg
+[example OK 6]: ../_media/calibration_example_ok_6.jpg

@@ -1,3 +1,10 @@
+---
+uri: debugging-marker-recognition-problems
+meta_title: Debugging Marker Recognition Problems
+menu_title: Debugging Marker Recognition Problems
+description: Sometimes when tracking does not work optimally, you might be left wondering how to debug the tracking and address the most serious sources of problems.
+---
+
 #Debugging Marker Recognition Problems
 ARToolKit has a flexible recognition pipeline, which allows it to work relatively well even with uncalibrated webcams, in a variety of lighting conditions, and with [markers][marker_about] of poor quality. However, there are limits to this tolerance, and sometimes when tracking does not work optimally, you might be left wondering how to "debug" the tracking and address the most serious sources of problems.
 
@@ -87,7 +94,7 @@ The help text is reproduced here:
       -h -help --help: show this message
 </pre>
 
-[marker_about]: 3_Marker_Training:marker_about
-[marker_barcode]: 3_Marker_Training:marker_barcode
-[marker_multi]: 3_Marker_Training:marker_multi
-[Check_id_cutoff_phases_v4]: :check_id_cutoff_phases_v4.5.0.png
+[marker_about]: ../3_Marker_Training/marker_about.md
+[marker_barcode]: ../3_Marker_Training/marker_barcode.md
+[marker_multi]: ../3_Marker_Training/marker_multi.md
+[Check_id_cutoff_phases_v4]: ../_media/check_id_cutoff_phases_v4.5.0.png

@@ -1,8 +1,15 @@
+---
+uri: simplelite-example-application
+meta_title: simpleLite Example AR Application
+menu_title: simpleLite
+description: Among the variety of example applications that are bundled with ARToolKit, simpleLite is the most straight-forward.
+---
+
 #simpleLite - First Example
-Among the variety of example applications that are bundled with ARToolKit, simpleLight is the most straight-forward. When you [install ARToolKit][about_installing], you can find it with the other example applications in the `bin` directory. More examples, and explanations of their techniques can be found from the sidebar category "Examples".
+Among the variety of example applications that are bundled with ARToolKit, simpleLite is the most straight-forward. When you [install ARToolKit][about_installing], you can find it with the other example applications in the `bin` directory. More examples, and explanations of their techniques can be found from the sidebar category "Examples".
 
 ##Running simpleLite
-Running the simpleLight example is one of the most straight-forward ways to test that your ARToolKit installation is functioning correctly. It is recommended you do this when you install a new version of ARToolKit.
+Running the simpleLite example is one of the most straight-forward ways to test that your ARToolKit installation is functioning correctly. It is recommended you do this when you install a new version of ARToolKit.
 
 ### Windows:
 simpleLite can be opened by double-clicking its icon in the `%ARTOOLKIT5_ROOT%\bin` directory or from the same directory from the command line (cmd.exe) by entering `simpleLite.exe`.
@@ -349,8 +356,8 @@ That's it! With these few simple function calls, you can create a fully-function
 At this stage, have a play with the simpleLite code. When you are ready, come back and read on to the next tutorial, in which we will cover drawing on top of multiple markers, and working out the relationships between markers.
 
 [1]: http://www.opengl.org/documentation/red_book/
-[config_camera_calibration]: 2_Configuration:config_camera_calibration
-[config_video_capture]: 2_Configuration:config_video_capture
-[about_installing]: 1_Getting_Started:about_installing
+[config_camera_calibration]: ../2_Configuration/config_camera_calibration.md
+[config_video_capture]:0 ../2_Configuration/config_video_capture.md
+[about_installing]: ../1_Getting_Started/about_installing.md
 
-[SimpleLite320x240Mac]: :simplelite320x240mac.png
+[SimpleLite320x240Mac]: ../_media/simplelite320x240mac.png

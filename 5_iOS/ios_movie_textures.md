@@ -1,3 +1,10 @@
+---
+uri: movie-textures-on-ios
+meta_title: Movie Textures on iOS
+menu_title: Movie Textures
+description: ARToolKit natively supports realtime playback of movie files (including audio) in the augmented environment on iOS. Video can be manipulated in the scene, including being attached to a marker.
+---
+
 #Movie Textures on iOS
 ARToolKit natively supports realtime playback of movie files (including audio) in the augmented environment on iOS. Video can be manipulated in the scene, including being attached to a marker.
 
@@ -33,4 +40,4 @@ Users of the MovieVideo class can listen for the NSNotification `MovieVideoPlayB
 ## Movies in libARvideo
 Video input via [libARvideo][config_video_capture] requires frames to be fetched via polling. A new parameter `AR_VIDEO_PARAM_IOS_ASYNC` can be queried to find out if frames are delivered asynchronously (CameraVideo) or must be fetched by polling (MovieVideo).
 
-[config_video_capture]: 2_Configuration:config_video_capture
+[config_video_capture]: ../2_Configuration/config_video_capture.md

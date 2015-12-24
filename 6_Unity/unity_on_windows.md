@@ -1,3 +1,10 @@
+---
+uri: artoolkit-for-unity-on-windows
+meta_title: ARToolKit for Unity on Windows
+menu_title: For Windows
+description: "ARToolKit for Unity follows the standard ARToolKit video configuration commands using DirectShow"
+---
+
 #ARToolKit for Unity on Windows
 To get started with using ARToolKit for Unity on Windows, first visit our [Getting Started][unity_getting_started] guide.
 
@@ -35,7 +42,7 @@ Also required are the Visual Studio 2010 runtimes, although these must be instal
 See [Deploying an ARToolKit Application on Windows][general_deploy_application].
 
 
-[unity_getting_started]: 6_Unity:unity_getting_started
-[config_video_capture]: 2_Configuration:config_video_capture
-[general_deploy_application]: 1_Getting_Started:general_deploy_application
-[winds_camera]: :artoolkit_for_unity_windows_winds_second_camera.png
+[unity_getting_started]: ../6_Unity/unity_getting_started.md
+[config_video_capture]: ../2_Configuration/config_video_capture.md
+[general_deploy_application]: ../1_Getting_Started/general_deploy_application.md
+[winds_camera]: ../_media/artoolkit_for_unity_windows_winds_second_camera.png

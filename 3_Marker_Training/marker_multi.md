@@ -1,3 +1,10 @@
+---
+uri: multimarker-tracking
+meta_title: Multimarker Tracking
+menu_title: Multimarker Tracking
+description: Rather than meaning the use of more than one marker at a time, multimarker tracking refers specifically to the use of multiple square markers fixed to a single object.
+---
+
 # Multimarker Tracking
 In ARToolKit the term *multimarker* (as a single word) has a special meaning. Rather than meaning the use of more than one marker at a time, it refers specifically to the use of multiple square markers fixed to a single object. Multimarker tracking has special support in the ARToolKit API and allows for a number of tracking performance and stability enhancements.
 
@@ -106,9 +113,9 @@ Compare this to the example above, and it can be seen that for marker 01 on the 
 
 ![Cube marker axes][Cube_marker_axes]
 
-[marker_about]: 3_Marker_Training:marker_about
-[marker_barcode]: 3_Marker_Training:marker_barcode
-[Example_multimarker_barcode]: :example_multimarker_barcode.jpg
-[Example_multimarker_cube]: :example_multimarker_cube.jpg
-[Example_multimarker_template]: :example_multimarker_template.jpg
-[Cube_marker_axes]: :cube_marker_axes.png
+[marker_about]: ../3_Marker_Training/marker_about.md
+[marker_barcode]: ../3_Marker_Training/marker_barcode.md
+[Example_multimarker_barcode]: ../_media/example_multimarker_barcode.jpg
+[Example_multimarker_cube]: ../_media/example_multimarker_cube.jpg
+[Example_multimarker_template]: ../_media/example_multimarker_template.jpg
+[Cube_marker_axes]: ../_media/cube_marker_axes.png

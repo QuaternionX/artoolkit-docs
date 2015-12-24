@@ -1,3 +1,10 @@
+---
+uri: ios-device-and-os-version-support
+meta_title: iOS Device and OS Version Support
+menu_title: iOS Device Support
+description: Movie file reading available on iOS v4.1 and later, i.e. VEObjectMovie and MovieVideo classes should not be used on iOS v4.0.x
+---
+
 #iOS Device & OS Version Support
 
 - iOS version 4.0 and later are supported by ARToolKit.

@@ -1,3 +1,10 @@
+---
+uri: about-artoolkit-for-android
+meta_title: About ARToolKit for Android
+menu_title: About ARToolKit for Android
+description: ARToolKit is a computer vision library that provides the tracking functionality required to build augmented reality applications. It has been ported to various hardware and software platforms, with recent focus specifically on the mobile domain.
+---
+
 #ARToolKit for Android
 ARToolKit is a computer vision library that provides the tracking functionality required to build augmented reality applications. It has been ported to various hardware and software platforms, with recent focus specifically on the mobile domain.
 
@@ -20,15 +27,15 @@ This guide covers the [structure][2] of ARToolKit and how to use it to develop y
 - [Codex Interactivus for Android][example_codex_interactivus] - [View in Google Play Store][codex_interactivus]
 - [Advanced Device-Specific Setup - Epson Moverio BT-200][android_bt]
 
-[android_sdk]: 4_Android:android_sdk
-[android_examples]: 4_Android:android_examples
-[android_developing]: 4_Android:android_developing
-[android_native]: 4_Android:android_native
-[android_preferences_activity]: 4_Android:android_preferences_activity
-[android_camera_calibration_service]: 4_Android:android_camera_calibration_service
-[android_bt]: 4_Android:android_bt-200
-[android_camera_calibration]: 4_Android:android_camera_calibration
-[example_codex_interactivus]: 7_Examples:example_codex_interactivus
+[android_sdk]: ../4_Android/android_sdk.md
+[android_examples]: ../4_Android/android_examples.md
+[android_developing]: ../4_Android/android_developing.md
+[android_native]: ../4_Android/android_native.md
+[android_preferences_activity]: ../4_Android/android_preferences_activity.md
+[android_camera_calibration_service]: ../4_Android/android_camera_calibration_service.md
+[android_bt]: ../4_Android/android_bt-200.md
+[android_camera_calibration]: ../4_Android/android_camera_calibration.md
+[example_codex_interactivus]: ../7_Examples/example_codex_interactivus.md
 
 [camera_calibration]: https://play.google.com/apps/testing/com.artoolworks.ar.utils.calib_camera
 [codex_interactivus]: https://play.google.com/store/apps/details?id=com.artoolworks.CodexInteractivus

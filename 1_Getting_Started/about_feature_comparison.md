@@ -1,7 +1,14 @@
-# ARToolKit Feature Comparison
+---
+uri: artoolkit-augmented-reality-sdk-feature-comparison
+meta_title: ARToolKit Feature Comparison
+menu_title: ARToolKit Feature Comparison
+description: As well as obvious feature differences, the changes cover a wide variety of less obvious areas, including fundamental algorithms, internal design (modularity, reuse), optimisation, external API design, connections to third-party systems, documentation and developer experience.
+---
+
+#ARToolKit Feature Comparison
 ARToolKit v2.x and ARToolKit v5.x, while sharing a small subset of features, are vastly different. The latter represents nearly 8 years of further development of the former.
 
-As well as obvious feature differences, the changes cover a wide variety of less obvious areas, including fundamental algorithms, internal design (modularity, reuse), optimisation, external API design, connections to third-party systems, documentation and developer experience
+As well as obvious feature differences, the changes cover a wide variety of less obvious areas, including fundamental algorithms, internal design (modularity, reuse), optimisation, external API design, connections to third-party systems, documentation and developer experience.
 
 ##Natural Feature Tracking
 Natural feature tracking is a major feature present in ARToolKit v5.x that is not present in v2.x

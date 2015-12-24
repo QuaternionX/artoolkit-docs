@@ -1,3 +1,10 @@
+---
+uri: graphics-models-and-rendering-support
+meta_title: Graphics, Models, and Rendering
+menu_title: Graphics, Models, and Rendering
+description: ARToolKit support ranges from use of basic OpenGL drawing commands in some of the demos, through to high-quality rendering of a large variety of models via the OpenSceneGraph framework.
+---
+
 #Graphics, Models, and Rendering
 ARToolKit includes support for loading models from the filesystem and rendering them in your scene. However, this aspect of your application is completely customisable. The support ranges from use of basic OpenGL drawing commands in some of the demos, through to high-quality rendering of a large variety of models via the OpenSceneGraph framework. Additionally, ARToolKit integrates with a wide variety of third-party rendering and game engines, including the popular Unity3D game engine via [ARToolKit for Unity][artk_unity].
 
@@ -47,7 +54,7 @@ Although [VRML][5] is not usually associated with visually-realistic 3D content,
 ##DirectX
 ARToolKit does not directly support DirectX. However, the core ARToolKit tracking is renderer-independent, so DirectX could be used provided you are able to perform any graphics-related tasks in your own code. Three core functions of libARgsub_lite would need to be emulated: code to convert an ARToolKit camera parameter matrix to a DirectX viewing frustum, code to convert an ARToolKit pose matrix to a DirectX modelview matrix, and code to draw the camera image as a video background (should this be required).
 
-[artk_unity]: 6_Unity:unity_about
+[artk_unity]: ../6_Unity/unity_about.md
 [2]: http://www.artoolworks.com/dist/openscenegraph/
 [3]: http://pdb.finkproject.org/pdb/search.php?summary=openvrml
 [4]: http://packages.debian.org/src:openvrml

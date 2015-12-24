@@ -1,3 +1,10 @@
+---
+uri: advanced-frequently-asked-questions
+meta_title: Advanced Frequently Asked Questions
+menu_title: Advanced FAQs
+description: ARToolKit works best with a controlled optical environment, in which the image acquired by the camera has a high signal-to-noise ratio, and when the properties of the optical environment are well known.
+---
+
 #Advanced FAQs
 
 ##What is the difference between arGetTransMatSquare, arGetTransMatSquareCont, and arGetTransMat?
@@ -29,4 +36,4 @@ The sample tracking algorithm supplied with the ARToolKit examples displays a go
 ##Why don't I get performance as good as your demos?
 ARToolKit works best with a controlled optical environment, in which the image acquired by the camera has a high signal-to-noise ratio, and when the properties of the optical environment are well known. In plain english: When the lighting is bright (so the camera gain is low, and depth of field is good), when the camera is a good quality camera (with a CMOS sensor, with a large sensor surface, and with good lenses with good light-gathering properties), and when the camera has been accurately calibrated. If any of these requirements can't be met, performance will be less than the ideal case, but in most cases still usable. See [about hardware selection here][about_hardware_selection]
 
-[about_hardware_selection]: 8_Advanced_Topics:about_hardware_selection
+[about_hardware_selection]: ../8_Advanced_Topics/about_hardware_selection.md

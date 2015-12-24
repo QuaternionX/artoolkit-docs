@@ -1,3 +1,10 @@
+---
+uri: artoolkit-for-unity-on-ios
+meta_title: ARToolKit for Unity on iOS
+menu_title: For iOS
+description: "Once the Xcode project has been exported from Unity, the following adjustments should be made in Xcode..."
+---
+
 #ARToolKit for Unity on iOS
 To get started with using ARToolKit for Unity on iOS, first visit our [Getting Started][unity_getting_started] guide. Also, look [here][ios_about] for iOS specific documentation.
 
@@ -21,7 +28,9 @@ To get started with using ARToolKit for Unity on iOS, first visit our [Getting S
     -   Script call optimization: Fast.
 
 ##Building Xcode Project Exported from Unity
-Once the Xcode project has been exported from Unity, the following adjustments should be made in Xcode Acclerate.framework will need to be added (in addition to the Unity-selected frameworks).
+Once the Xcode project has been exported from Unity, the following adjustments should be made in Xcode:
+
+Acclerate.framework will need to be added (in addition to the Unity-selected frameworks).
 ![Screenshot of Accelerate.framework being added.][accelerate_screenshot]
 
 For reference, the complete list of iOS frameworks and libraries required for correct linking is:
@@ -37,8 +46,8 @@ For reference, the complete list of iOS frameworks and libraries required for co
 -   libjpeg (libjpeg.a from ARToolKit for iOS can be used)
 -   libstdc++.6
 
-[ios_about]: 5_iOS:ios_about
-[ios_supported_systems]: 5_iOS:ios_supported_systems
-[unity_getting_started]: 6_Unity:unity_getting_started
+[ios_about]: ../5_iOS/ios_about.md
+[ios_supported_systems]: ../5_iOS/ios_supported_systems.md
+[unity_getting_started]: ../6_Unity/unity_getting_started.md
 
-[accelerate_screenshot]: :unity_ios_-_add_accelerate.framework.png
+[accelerate_screenshot]: ../_media/unity_ios_-_add_accelerate.framework.png

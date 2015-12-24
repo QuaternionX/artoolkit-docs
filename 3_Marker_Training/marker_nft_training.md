@@ -1,3 +1,10 @@
+---
+uri: training-nft-to-a-new-surface
+meta_title: Training Natural Feature Tracking to a New Surface
+menu_title: Training NFT to a New Surface
+description: ARToolKit NFT tracks from natural features of planar textured surfaces (e.g. photos and documents). The current implementation of the tracking algorithm requires that the visual appearance of the surface is known in advance.
+---
+
 # Training NFT to a New Surface
 ARToolKit NFT tracks from natural features of planar textured surfaces (e.g. photos and documents). The current implementation of the tracking algorithm requires that the visual appearance of the surface is known in advance. Thus, in advance we have to *train* the system to the appearance of a particular surface that we want to use for tracking. The output of this training is a set of data that can be used for realtime tracking in our application.
 
@@ -107,19 +114,19 @@ By examining the output of dispFeatureSet, you can immediately see a number of t
 The easiest means of testing NFT datasets you have trained in live tracking is to run them using the [nftSimple example][example_nftsimple] program.
 
 [self-similarity]: https://en.wikipedia.org/wiki/Self-similarity
-[marker_nft_fiducial_markers]: 3_Marker_Training:marker_nft_fiducial_markers
-[marker_nft_utilities]: 3_Marker_Training:marker_nft_utilities
-[example_nftsimple]: 7_Examples:example_nftsimple
+[marker_nft_fiducial_markers]: ../3_Marker_Training/marker_nft_fiducial_markers.md
+[marker_nft_utilities]: ../3_Marker_Training/marker_nft_utilities.md
+[example_nftsimple]: ../7_Examples/example_nftsimple.md
 [forum]: http://www.artoolworks.com/support/forum/
 
-[3]: :pinball.jpg
+[3]: ../_media/pinball.jpg
 
-[NFT_example_KPM_measuring_image_with_rule]: :nft_example_kpm_measuring_image_with_rule.jpg
-[NFT_example_KPM_image_size_photoshop]: :nft_example_kpm_image_size_photoshop.jpg
-[Glueing_marker_to_backing_board]: :glueing_marker_to_backing_board.jpg
-[NFT_example_genTexData_010]: :nft_example_gentexdata_010.png
-[NFT_example_genTexData_020]: :nft_example_gentexdata_020.png
-[NFT_example_genTexData_030]: :nft_example_gentexdata_030.png
-[NFT_example_genTexData_040]: :nft_example_gentexdata_040.png
-[NFT_example_genTexData_050]: :nft_example_gentexdata_050.png
-[NFT_example_genTexData_060]: :nft_example_gentexdata_060.png
+[NFT_example_KPM_measuring_image_with_rule]: ../_media/nft_example_kpm_measuring_image_with_rule.jpg
+[NFT_example_KPM_image_size_photoshop]: ../_media/nft_example_kpm_image_size_photoshop.jpg
+[Glueing_marker_to_backing_board]: ../_media/glueing_marker_to_backing_board.jpg
+[NFT_example_genTexData_010]: ../_media/nft_example_gentexdata_010.png
+[NFT_example_genTexData_020]: ../_media/nft_example_gentexdata_020.png
+[NFT_example_genTexData_030]: ../_media/nft_example_gentexdata_030.png
+[NFT_example_genTexData_040]: ../_media/nft_example_gentexdata_040.png
+[NFT_example_genTexData_050]: ../_media/nft_example_gentexdata_050.png
+[NFT_example_genTexData_060]: ../_media/nft_example_gentexdata_060.png

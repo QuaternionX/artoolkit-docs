@@ -1,3 +1,10 @@
+---
+uri: codex-interactivus-augmented-reality-example-application
+meta_title: Codex Interactivus Downloadable Example AR Application
+menu_title: Codex Interactivus
+description: The Codex Interactivus application displays models of the inventions of Leonardo da Vinci on your device.
+---
+
 #Codex Interactivus - Downloadable Example
 This application displays models of the inventions of Leonardo da Vinci on your device.
 

@@ -1,3 +1,10 @@
+---
+uri: nftsimple-natural-feature-tracking-example
+meta_title: nftSimple Natural Feature Tracking AR Example Application
+menu_title: nftSimple
+description: nftSimple is an application that demonstrates the NFT tracking alongside very simple rendering. When an NFT surface is recognized, the familiar colorcube (also seen in the simpleLite example) will be drawn at the origin of the dataset's coordinate system.
+---
+
 #nftSimple - NFT Example
 
 ##About nftSimple
@@ -29,7 +36,7 @@ Once the application is running, point the camera at the image.
 
 The tracking should rapidly pick up the image. Once the image is recognized, the colorcube will be drawn at the origin of the page's coordinate system.
 
-[1]: 2_Configuration:config_video_capture
-[2]: 2_Configuration:config_camera_calibration
+[1]: ../2_Configuration/config_video_capture.md
+[2]: ../2_Configuration/config_camera_calibration.md
 
-[NFT_example_KPM_holding_webcam]: :nft_example_kpm_holding_webcam.jpg
+[NFT_example_KPM_holding_webcam]: ../_media/nft_example_kpm_holding_webcam.jpg

@@ -1,3 +1,10 @@
+---
+uri: configuring-video-capture
+meta_title: Configuring Video Capture in ARToolKit with libARvideo
+menu_title: Configuring libARvideo Capturing
+description: ARToolKit includes libARvideo, a cross-platform library which captures video from a variety of different sources.
+---
+
 #Configuring Video Capture in ARToolKit
 ARToolKit includes libARvideo, a cross-platform library which captures video from a variety of different sources. In general, most users of ARToolKit who have a single webcam attached to their system will never delve into the workings of this library. However, the module or modules inside this library generally allow for a degree of configuration to control parameters of the capture sources with which they interface.
 
@@ -293,7 +300,7 @@ As of ARToolKit for iOS version 4.5.5 (release 4) the iOS video plugin can opera
 | -noFlipV            | Override a previous -flipV option and do not flip image vertically.                                                                                                                                                                                                                                                                                            | -noFlipV              | 5.1.7       |               |
 
 [winvidg]: http://www.eden.net.nz/7/20071008/
-[libarvideo]: 8_Advanced_Topics:windows_building_libarvideo
-[general_environment_variables]: 1_Getting_Started:general_environment_variables
-[config_camera_calibration]: 2_Configuration:config_camera_calibration
-[config_camera_stereo_tracking]: 8_Advanced_Topics:config_camera_stereo_tracking
+[libarvideo]: ../8_Advanced_Topics/windows_building_libarvideo.md
+[general_environment_variables]: ../1_Getting_Started/general_environment_variables.md
+[config_camera_calibration]: ../2_Configuration/config_camera_calibration.md
+[config_camera_stereo_tracking]: ../8_Advanced_Topics/config_camera_stereo_tracking.md

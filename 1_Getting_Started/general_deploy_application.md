@@ -1,3 +1,10 @@
+---
+uri: deploying-an-application-on-windows-and-os-x
+meta_title: Deploying an Application on Windows/OS X
+menu_title: Deploying an Application on Windows/OS X
+description: Additional information useful when deploying an application based on ARToolKit.
+---
+
 #Deploying an Application on Windows/OS X
 This page lists additional information useful when deploying an application based on ARToolKit. Deployment might mean (for
 example) creating an installer for users to install your application on a Windows-based PC, or submitting an OS-X application to Apple's Mac AppStore.
@@ -49,4 +56,4 @@ ARToolKit Professional for OS X has dependency on some .dylibs. At the time of w
 ![Code signing dylibs in Xcode.][dylibs]
 
 [innosetup]: http://www.jrsoftware.org/isinfo.php
-[dylibs]: :artoolkit_xcode_code_sign_dylibs.png
+[dylibs]: ../_media/artoolkit_xcode_code_sign_dylibs.png

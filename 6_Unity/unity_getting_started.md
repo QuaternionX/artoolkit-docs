@@ -1,3 +1,10 @@
+---
+uri: getting-started-with-artoolkit-for-unity
+meta_title: Getting Started with the ARToolKit plugin for Unity
+menu_title: Getting Started
+description: ARToolKit for Unity is distributed as a Unity package. A package is an archive of files which can be imported and unpacked into your Unity project. In this case, the package contains the plugin, scripts and resources necessary to integrate ARToolKit with your Unity application.
+---
+
 #Getting Started with ARToolKit for Unity
 
 ##Installation
@@ -103,19 +110,19 @@ If you are not using NFT markers, be sure to remove any NFT datasets from the St
 ##Next Steps
 Read up on [the scripts of ARToolKit][unity_scripts] in Unity. Also check out our [low-level API][unity_low_level_api].
 
-[marker_about]: 3_Marker_Training:marker_about
-[marker_train]: 3_Marker_Training:marker_training
-[config_camera_calibration]: 2_Configuration:config_camera_calibration
-[marker_nft_train]: 3_Marker_Training:marker_nft_train
-[unity_scripts]: 6_Unity:unity_scripts
-[unity_low_level_api]: 6_Unity:unity_low_level_api
+[marker_about]: ../3_Marker_Training/marker_about.md
+[marker_train]: ../3_Marker_Training/marker_training.md
+[config_camera_calibration]: ../2_Configuration/config_camera_calibration.md
+[marker_nft_train]: ../3_Marker_Training/marker_nft_train.md
+[unity_scripts]: ../6_Unity/unity_scripts.md
+[unity_low_level_api]: ../6_Unity/unity_low_level_api.md
 
-[menu_screenshot]: :unity_import_package.png
-[import_all]: :unity_import_artoolkit_2012-06.png
-[editor_screenshot]: :artoolkit_for_unity_scripts.png
-[arcontroller_setup]: :unity_drag_artoolkit_script_onto_empty_gameobject.png
-[layer]:http://unity3d.com/support/documentation/Components/Layers.html
-[edit_layers]: :unity_-_edit_layers.jpg
-[name_layers]: :unity_-_ar_layers.jpg
-[rotating]: :artoolkit_for_unity_-_setting_scene_root_rotation.png
-[nft_options]: :artoolkit_for_unity_-_nft_options.png
+[menu_screenshot]: ../_media/unity_import_package.png
+[import_all]: ../_media/unity_import_artoolkit_2012-06.png
+[editor_screenshot]: ../_media/artoolkit_for_unity_scripts.png
+[arcontroller_setup]: ../_media/unity_drag_artoolkit_script_onto_empty_gameobject.png
+[layer]: http://unity3d.com/support/documentation/Components/Layers.html
+[edit_layers]: ../_media/unity_-_edit_layers.jpg
+[name_layers]: ../_media/unity_-_ar_layers.jpg
+[rotating]: ../_media/artoolkit_for_unity_-_setting_scene_root_rotation.png
+[nft_options]: ../_media/artoolkit_for_unity_-_nft_options.png

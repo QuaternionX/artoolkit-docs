@@ -1,3 +1,10 @@
+---
+uri: developing-with-artoolkitwrapper-and-arbaselib
+meta_title: Developing with ARToolKitWrapper and ARBaseLib
+menu_title: Developing with ARToolKitWrapper and ARBaseLib
+description: Using the included ARToolKitWrapper native library and ARBaseLib Android library, it is simple to get an ARToolKit application up and running.
+---
+
 #Developing with ARToolKitWrapper and ARBaseLib
 Using the included ARToolKitWrapper native library and ARBaseLib Android library, it is simple to get an ARToolKit application up and running. Developers should refer to the ARSimple example included in the SDK as it is the most basic example and follows the development strategy described in this section.
 
@@ -249,14 +256,14 @@ The ARNative example (and its accompanying native library libARNative) demonstra
 
 Rather than combining Android camera and OpenGL views to synthesize an AR view, ARNative uses texture mapping to display the video background, using standard ARToolKit functions. However, the camera preview surface must still be placed in the activity’s view hierarchy to permit video capture. The preview can be hidden from view under the OpenGL surface however.
 
-[1]: 4_Android:android_examples
+[1]: ../4_Android/android_examples.md
 
-[android_camera_calibration]: 4_Android:android_camera_calibration
-[marker_training]: 3_Marker_Training:marker_training
-[marker_nft_training]: 3_Marker_Training:marker_nft_training
+[android_camera_calibration]: ../4_Android/android_camera_calibration.md
+[marker_training]: ../3_Marker_Training/marker_training.md
+[marker_nft_training]: ../3_Marker_Training/marker_nft_training.md
 
-[artoolkitwrapper_arbaselib]: :artoolkitwrapper_arbaselib.png
-[libs_directory]: :libs_directory.png
-[arbaselib_dialog]: :arbaselib_dialog.png
-[view_layers]: :view_layers.png
-[artoolkit_direct]: :artoolkit_direct.png
+[artoolkitwrapper_arbaselib]: ../_media/artoolkitwrapper_arbaselib.png
+[libs_directory]: ../_media/libs_directory.png
+[arbaselib_dialog]: ../_media/arbaselib_dialog.png
+[view_layers]: ../_media/view_layers.png
+[artoolkit_direct]: ../_media/artoolkit_direct.png

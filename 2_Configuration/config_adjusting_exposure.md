@@ -1,3 +1,10 @@
+---
+uri: adjusting-video-source-exposure
+meta_title: Adjusting for Over- or Under-Exposed Video Sources
+menu_title: Adjusting for Over- or Under-Exposure
+description: Part of ARToolKit's tracking operates on a binarized image, that is, an image that has been converted into black and white pixels only.
+---
+
 #Adjusting for Over-/Under-Exposed Video Sources
 Part of ARToolKit's tracking operates on a binarized image, that is, an image that has been converted into black and white pixels only. All pixels above a certain level of brightness, referred to as the "binarization threshhold", or just "threshhold" are converted to white, and all pixels below this threshhold are converted to black.
 
@@ -35,7 +42,7 @@ How does the user know how much adjustment to make? The simplest way is to let t
 
 The debug mode can be toggled on and off easily, as seen in this snippet from the simpleLite example:
 <pre>
-static void Keyboard(unsigned char key, int x, int y) 
+static void Keyboard(unsigned char key, int x, int y)
 {
     int mode;
     switch (key) {

@@ -1,5 +1,12 @@
-#Optical - Optical See-Though Example
-The applications "optical" and "opticalStereo" are example applications demonstrating *monocular* and *stereo optical see-through with a [calibrated camera][config_camera_calibration] and display, respectively.
+---
+uri: optical-see-through-example-application
+meta_title: Optical See-Through Example AR Applications
+menu_title: Optical See-Through
+description: The applications optical and opticalStereo are example applications demonstrating monocular and stereo optical see-through with a calibrated camera and display, respectively.
+---
+
+#Optical See-Through Example
+The applications "optical" and "opticalStereo" are example applications demonstrating *monocular* and *stereo* optical see-through with a [calibrated camera][config_camera_calibration] and display, respectively.
 
 -   It expects to load calibrated camera parameters from the file `Data/camera_para.dat` and [calibrated optical see-through parameters][config_optical_see-through] from the file Data/optical_param.dat, so be sure that you have run the calibration programs (calib\_camera and calib\_optical) and moved the results of your calibration into the Data directory.
 -   Print out the Hiro and Kanji markers and make sure that they are exactly 80mm on each side. *(Unlike video-see through where a marker of incorrect size will still be overlaid with the content, in optical see-through, the axis of the camera and the axis of the display do not usually align, and so a mis-sized marker will result in radically incorrect display)*.
@@ -47,5 +54,5 @@ Options:
 
 If you want to change the markers, you can edit the file Data/markers.dat. If you want to change the content, edit the file Data/objects.dat.
 
-[config_camera_calibration]: 2_Configuration:config_camera_calibration
-[config_optical_see-through]: 8_Advanced_Topics:config_optical_see-through
+[config_camera_calibration]: ../2_Configuration/config_camera_calibration.md
+[config_optical_see-through]: ../8_Advanced_Topics/config_optical_see-through.md

@@ -1,8 +1,15 @@
+---
+uri: artoolkit-sdk-structure-on-android
+meta_title: ARToolKit's SDK Structure on Android
+menu_title: SDK Structure
+description: Most applications on Android are developed in Java, and Android provides a rich framework of classes to support this. It is, however, also possible to develop parts of an application in native C/C++ code using the Android NDK.
+---
+
 #ARToolKit's SDK Structure on Android
 Most applications on Android are developed in Java, and Android provides a rich framework of classes to support this. It is, however, also possible to develop parts of an application in native C/C++ code using the Android NDK. This is intended for accessing existing C/C++ codebases or potentially optimizing performance critical functions.
- 
+
 The general approach is to build a native C/C++ shared library containing functions that are exposed using the JNI naming scheme. A Java application can then load the library and map the native functions to Java methods, which can then be called like any other method in Java.
- 
+
 Using this approach it is now possible to create ARToolKit applications on Android. Certain parts of these applications, must be implemented in Java, other parts can be written in C/C++. Therefore, applications will typically be a combination of C/C++, Java, and the “glue” in between.
 
 This SDK includes components in both C/C++ and Java to permit the development of ARToolKit applications on Android. These components include:
@@ -39,4 +46,4 @@ A printer is required to print out markers.
 
 Currently the libraries assume data files are present on the mobile device. Please copy the contents of the directory “Misc/copy to device SD card” to the device before running the examples. The SD card will need to be mounted to perform the copy, but needs to be unmounted before running the examples.
 
-[1]: 4_Android:android_examples
+[1]: ../4_Android/android_examples.md

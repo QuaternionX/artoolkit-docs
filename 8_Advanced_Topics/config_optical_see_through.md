@@ -1,4 +1,11 @@
-# Usng an Optical See-Through Display
+---
+uri: using-an-optical-see-through-display
+meta_title: Using an Optical See-Through Display
+menu_title: Optical See-Through Displays
+description: Instead of rendering both the background camera feed and the augmentations, the optical see-through display renders the augmentations, and background is the world around you.
+---
+
+# Using an Optical See-Through Display
 Traditionally, applications built on ARToolKit use a video feed on which augmentations are overlaid. ARToolKit also supports using optical see-through displays for augmented reality. Instead of rendering both the background camera feed and the augmentations, the optical see-through display renders the augmentations, and background is the world around you. Examples of higher-end see-though HMDs (head-mounted devices) include the DAQRI Smart Helmet and the Epson Moverio.
 
 If your see-through display is a stereo display (one display for each eye), you are able to render stereoscopically (providing depth) with an optical see-through display, rendering a different perspective for each eye. Regardless of whether you are using a monocular or stereo display, there is the benefit that there is no separation from the real world - You're not looking at the world around you put up on a screen..
@@ -133,13 +140,13 @@ Optical see-through calibration depends on accurately knowing the precise relati
 Of course, alignment between virtual and real objects is desirable for video see-through too, but in video see-through the users sees the virtual objects overlaid on the source image being used for tracking. There is minimal registration error between the video stream and the overlaid objects, and the misalignment of the video stream and the real scene behind and around it is much less noticeable to the user. This is one of the key reasons why video see-through display has become so widely used in AR research.
 
 [1]: http://www.cs.unc.edu/~azuma/azuma_AR.html
-[2]: 2_Configuration:config_camera_calibration
-[example_optical]: 7_Examples:example_optical
+[2]: ../2_Configuration/config_camera_calibration.md
+[example_optical]: ../7_Examples/example_optical.md
 [interpupillary_distance]: https://en.wikipedia.org/wiki/Interpupillary_distance
 
-[optical_calibration_pattern]: :optical_calibration_pattern.png
-[performing_optical_calibration]: :performing_optical_calibration.png
-[optical_calibration_view]: :Ootical_calibration_view.png
-[ARToolKit_for_Unity_optical_parameters_file_location]: :artoolkit_for_unity_optical_parameters_file_location.png
-[ARToolKit_for_Unity_optical_mode_enabled]: :artoolkit_for_unity_optical_mode_enabled.png
-[ARToolKit_for_Unity_stereo_optical_cameraL]: :artoolkit_for_unity_stereo_optical_cameral.png
+[optical_calibration_pattern]: ../_media/optical_calibration_pattern.png
+[performing_optical_calibration]: ../_media/performing_optical_calibration.png
+[optical_calibration_view]: ../_media/Ootical_calibration_view.png
+[ARToolKit_for_Unity_optical_parameters_file_location]: ../_media/artoolkit_for_unity_optical_parameters_file_location.png
+[ARToolKit_for_Unity_optical_mode_enabled]: ../_media/artoolkit_for_unity_optical_mode_enabled.png
+[ARToolKit_for_Unity_stereo_optical_cameraL]: ../_media/artoolkit_for_unity_stereo_optical_cameral.png

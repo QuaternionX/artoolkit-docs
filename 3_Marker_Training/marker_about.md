@@ -1,3 +1,10 @@
+---
+uri: about-traditional-template-marker-tracking
+meta_title: About Traditional Template Marker Tracking
+menu_title: About Marker Tracking
+description: ARToolKit applications allow virtual imagery to be superimposed on the live environment through a video or see-through display. Although this appears magical, the secret is in the black squares used as tracking markers.
+---
+
 #About Traditional Template Marker Tracking
 ARToolKit applications allow virtual imagery to be superimposed on the live environment through a video or see-through display. Although this appears magical, the secret is in the black squares used as tracking markers. The ARToolKit tracking works as follows:
 
@@ -45,6 +52,6 @@ To reduce the glare, patterns can be made from more non-reflective material. For
 
 To reduce shadows, we recommend using omnidirectional lighting (lighting conditions where light falls on the patterns from all directions).
 
-[diagram]: :diagram.jpg
-[marker_barcode]: 3_Marker_Training:marker_barcode
-[marker_training]: 3_Marker_Training:marker_training
+[diagram]: ../_media/diagram.jpg
+[marker_barcode]: ../3_Marker_Training/marker_barcode.md
+[marker_training]: ../3_Marker_Training/marker_training.md

@@ -1,3 +1,10 @@
+---
+uri: android-native-development
+meta_title: Android Native Development
+menu_title: Native Development
+description: If you are not planning on altering any native code then you do not need to consult this section or install the Android NDK.
+---
+
 #Android Native Development
 The SDK package includes prebuilt native libraries. If you are not planning on altering any native code then you do not need to consult this section or install the Android NDK. On the other hand, if you want to implement part of your AR application in native code, then you will need to create a shared native library.
 
@@ -47,8 +54,8 @@ To use this native library in your own Android application, you will need to cop
 [5]: http://developer.android.com/sdk/ndk/index.html
 [6]: http://tools.android.com/recent/usingthendkplugin
 [7]: http://www.cygwin.com
-[android_developing]: 4_Android:android_developing
+[android_developing]: ../4_Android/android_developing.md
 
-[set_ndk_build_vars]: :set_ndk_build_vars.png
-[set_ndk_build]: :set_ndk_build.png
-[libs_directory]: :libs_directory.png
+[set_ndk_build_vars]: ../_media/set_ndk_build_vars.png
+[set_ndk_build]: ../_media/set_ndk_build.png
+[libs_directory]: ../_media/libs_directory.png

@@ -1,3 +1,10 @@
+---
+uri: nft-utilities
+meta_title: Natural Feature Tracking Utilities
+menu_title: NFT Utilities
+description: This page is a description of the tools used along with NFT tracking.
+---
+
 #NFT Utilities for ARToolKit
 This page is a description of the tools used along with [NFT tracking][marker_nft_training].
 
@@ -70,7 +77,7 @@ genTexData performs training of NFT datasets from a supplied JPEG-format source 
 
 Usage:
 <pre>
-    ./genTexData <filename>
+    ./genTexData [filename]
         -level=n
              (n is an integer in range 0 (few) to 4 (many). Default 2.'
         -sd_thresh=<sd_thresh>
@@ -106,14 +113,14 @@ E_GENERIC_ERROR = 255
 
 See [Training NFT to a new surface][marker_nft_training] for more information on NFT datasets.
 
-[marker_nft_training]: 3_Marker_Training:marker_nft_training
-[Pinball_NFT_sample_printed_with_hand]: :pinball_nft_sample_printed_with_hand.jpg
-[Hiro_marker_on_paddle_40mm]: :hiro_marker_on_paddle_40mm.jpg
-[CheckResolution_pinball_marker_mid-distance]: :checkresolution_pinball_marker_mid-distance.png
-[CheckResolution_pinball_marker_close-distance]: :checkresolution_pinball_marker_close-distance.png
-[CheckResolution_pinball_marker_far-distance]: :checkresolution_pinball_marker_far-distance.png
-[ARToolKit_NFT_-_dispFeatureSet_terminal]: :artoolkit_nft_-_dispfeatureset_terminal.png
-[ARToolKit_NFT_-_dispFeatureSet]: :artoolkit_nft_-_dispfeatureset.png
+[marker_nft_training]: ../3_Marker_Training/marker_nft_training.md
+[Pinball_NFT_sample_printed_with_hand]: ../_media/pinball_nft_sample_printed_with_hand.jpg
+[Hiro_marker_on_paddle_40mm]: ../_media/hiro_marker_on_paddle_40mm.jpg
+[CheckResolution_pinball_marker_mid-distance]: ../_media/checkresolution_pinball_marker_mid-distance.png
+[CheckResolution_pinball_marker_close-distance]: ../_media/checkresolution_pinball_marker_close-distance.png
+[CheckResolution_pinball_marker_far-distance]: ../_media/checkresolution_pinball_marker_far-distance.png
+[ARToolKit_NFT_-_dispFeatureSet_terminal]: ../_media/artoolkit_nft_-_dispfeatureset_terminal.png
+[ARToolKit_NFT_-_dispFeatureSet]: ../_media/artoolkit_nft_-_dispfeatureset.png
 
-[ARToolKit_NFT_-_dispImageSet_terminal]: :artoolkit_nft_-_dispimageset_terminal.png
-[ARToolKit_NFT_-_dispImageSet]: :artoolkit_nft_-_dispimageset.png
+[ARToolKit_NFT_-_dispImageSet_terminal]: ../_media/artoolkit_nft_-_dispimageset_terminal.png
+[ARToolKit_NFT_-_dispImageSet]: ../_media/artoolkit_nft_-_dispimageset.png

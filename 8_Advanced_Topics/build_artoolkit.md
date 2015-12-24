@@ -1,3 +1,10 @@
+---
+uri: building-artoolkit-from-source
+meta_title: Building ARToolKit From Source
+menu_title: Build From Source
+description: If you have been supplied with pre-built ARToolKit binaries, you will not need to build ARToolKit from source. The instructions below apply only to users who wish to modify the internals of ARToolKit.
+---
+
 #Building ARToolKit from Source
 *If you have been supplied with pre-built ARToolKit binaries, you will not need to build ARToolKit from source. The instructions below apply only to users who wish to modify the internals of ARToolKit.* Source code and project files are supplied for all of ARToolKit. This allows you to not only see how the toolkit works, but also to modify its operation should you so wish.
 
@@ -78,9 +85,9 @@ simpleLite can be launched from a terminal window thus:
 ### Setting up the ARTOOLKIT5_ROOT environment variable
 [Click here to see how to set an environment variable.]
 
-[about_installing]: 1_Getting_Started:about_installing
-[tutorial_1_first_scene]: 7_Examples:example_simplelite
-[setting_env]: 1_Getting_Started:general_environment_variables
+[about_installing]: ../1_Getting_Started/about_installing.md
+[tutorial_1_first_scene]: ../7_Examples/example_simplelite.md
+[setting_env]: ../1_Getting_Started/general_environment_variables.md
 [examples]:
 [2]: http://developer.apple.com/xcode/
 [3]: http://mesa3d.sourceforge.net/

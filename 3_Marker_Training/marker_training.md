@@ -1,3 +1,10 @@
+---
+uri: creating-and-training-new-markers
+meta_title: Creating and Training New Markers
+menu_title: Creating and Training New Markers
+description: Markers are the squares that ARToolKit recognizes and tracks in a video stream. That is, markers are the physical patterns that you've created or printed out.
+---
+
 # Creating and Training New Markers
 [Markers][marker_about] are the squares that ARToolKit recognizes and tracks in a video stream. That is, markers are the physical patterns that you've created or printed out. ARToolKit comes with PDF files for some pre-made markers, e.g. the Hiro marker, which you can print out and affix to card or board (so that they stay flat). Markers are the optical inputs to ARToolKit.
 
@@ -93,16 +100,16 @@ If using large images, you may want to edit `#define`s `AR_SQUARE_MAX`, `AR_CHAI
 - Don't forget that markers can be color! Let's see some non-boring markers out there people!
 - A common mistake is to try and use markers with much too-fine detail in the marker image. ARToolKit samples the marker image at only a resolution of 16x16 pixels, so if you're getting markers mistaken for each other, check whether your markers look too similar to each other when the marker image is downsampled to 16x16 pixels.
 
-[marker_about]: 3_Marker_Training:marker_about
-[marker_barcode]: 3_Marker_Training:marker_barcode
-[config_camera_calibration]: 2_Configuration:config_camera_calibration
-[example_simplelite]: 7_Examples:example_simplelite
+[marker_about]: ../3_Marker_Training/marker_about.md
+[marker_barcode]: ../3_Marker_Training/marker_barcode.md
+[config_camera_calibration]: ../2_Configuration/config_camera_calibration.md
+[example_simplelite]: ../7_Examples/example_simplelite.md
 [arsetpattratio]: http://www.artoolworks.com/support/doc/artoolkit4/apiref/ar_h/index.html#//apple_ref/c/func/arSetPattRatio
 
 [1]: http://en.wikipedia.org/wiki/Rotational_symmetry
 [2]: http://www.roarmot.co.nz/ar/
 [3]: http://flash.tarotaro.org/blog/2009/07/12/mgo2/
 
-[Hiro_marker]: :hiro_marker.png
-[Markerdimensions]: :markerdimensions.png
-[Mkpatt]: :mkpatt.jpg
+[Hiro_marker]: ../_media/hiro_marker.png
+[Markerdimensions]: ../_media/markerdimensions.png
+[Mkpatt]: ../_media/mkpatt.jpg

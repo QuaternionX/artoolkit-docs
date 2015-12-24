@@ -1,3 +1,10 @@
+---
+uri: scripting-with-artoolkit-and-unity
+meta_title: ARToolKit for Unity Scripting and Low-Level API
+menu_title: Scripting and Low-Level API
+description: "Unity provides a rich scripting interface for developing interactive applications. Scripts can be written in Javascript or C#, and have access to the vast library of objects and functions."
+---
+
 #ARToolKit for Unity Scripting and Low-Level API
 
 ##Unity Scripting Environment at a High-Level
@@ -127,7 +134,7 @@ Ultimately, all AR-related functions in ARToolKit for Unity's C\# scripts call t
 
 Full API documentation for libARWrapper's simplified C-based API is available on our website][c_docs].
 
-[unity_getting_started]: 6_Unity:unity_getting_started
-[functional_schematic]: :artoolkit_for_unity_functional_schematic.png
+[unity_getting_started]: ../6_Unity/unity_getting_started.md
+[functional_schematic]: ../_media/artoolkit_for_unity_functional_schematic.png
 [broadcast_message]: http://docs.unity3d.com/ScriptReference/GameObject.BroadcastMessage.html
 [c_docs]: http://www.artoolkit.org

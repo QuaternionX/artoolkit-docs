@@ -1,3 +1,10 @@
+---
+uri: hardware-selection-and-configuration
+meta_title: Hardware Selection and Configuration
+menu_title: Hardware Configuration
+description: The ultimate goal of the imaging system (the camera lens, sensor and on-chip processing) is to provide maximum signal-to-noise ratio in any acquired image. This is because the image processing performed by ARToolKit and other similar systems involves mathematical correlation operations for identification.
+---
+
 #Hardware Selection and Configuration
 
 ##A Note on Camera Selection
@@ -69,11 +76,11 @@ Imaging systems are a fascinating and complex area. We highly recommend [Edmund 
 [2]: http://damien.douxchamps.net/ieee1394/libdc1394/
 [3]: http://www.edmundoptics.com/capabilities/imaging-optics/imaging-resource-guide/
 
-[logitech_quickcam]: :logitech_quickcam_pro_for_notebooks_960-000057_front.png
-[point_grey_housing_removed_front]: :point_grey_firefly_2_housing_removed_-_front.jpg
-[point_grey_housing_removed_rear]: :point_grey_firefly_2_housing_removed_-_rear.jpg
-[point_grey_flea_front_no_lens]: :point_grey_flea_-_front_no_lens.jpg
-[point_grey_flea_rear_no_lens]: :point_grey_flea_rear_no_lens.jpg
-[point_grey_flea_side_no_lens]: :point_grey_flea_-_side_view_no_lens.jpg
-[point_grey_flea_manual_variable]: :point_grey_flea_with_manual_focus_variable_aperture_c-mount_lens.jpg
-[point_grey_flea_manual_telephoto]: :point_grey_flea_with_manual_focus_variable_aperture_telephoto_c-mount_lens.jpg
+[logitech_quickcam]: ../_media/logitech_quickcam_pro_for_notebooks_960-000057_front.png
+[point_grey_housing_removed_front]: ../_media/point_grey_firefly_2_housing_removed_-_front.jpg
+[point_grey_housing_removed_rear]: ../_media/point_grey_firefly_2_housing_removed_-_rear.jpg
+[point_grey_flea_front_no_lens]: ../_media/point_grey_flea_-_front_no_lens.jpg
+[point_grey_flea_rear_no_lens]: ../_media/point_grey_flea_rear_no_lens.jpg
+[point_grey_flea_side_no_lens]: ../_media/point_grey_flea_-_side_view_no_lens.jpg
+[point_grey_flea_manual_variable]: ../_media/point_grey_flea_with_manual_focus_variable_aperture_c-mount_lens.jpg
+[point_grey_flea_manual_telephoto]: ../_media/point_grey_flea_with_manual_focus_variable_aperture_telephoto_c-mount_lens.jpg

@@ -1,3 +1,10 @@
+---
+uri: arapp-example-application
+meta_title: ARApp iOS Augmented Reality Example Application
+menu_title: ARApp iOS Example
+description: ARApp is designed specifically for the iOS environment, and so differs somewhat from the design of the examples for the desktop platforms.
+---
+
 #ARApp - iOS Example
 ARApp is designed specifically for the [iOS][ios_about] environment, and so differs somewhat from the design of the examples for the desktop platforms. It respects the iOS's model-view-controller design pattern. Calls to ARToolKit's C functions (part of the "model") are made entirely by the ARViewController class. ARViewController is a subclass of UIViewController, and is designed to be able to be reused in your own applications. When instantiated, it opens a video window, and creates an OpenGL rendering context. When dismissed, it disposes of the OpenGL context and closes the video window.
 
@@ -18,4 +25,4 @@ The ARMarker class includes a class method to read marker definitions from a fil
 
 If you have any further questions about the design, or how the app fits together, please ask on the community forum (rather than by email) so that others can benefit from the answers.
 
-[ios_about]: 5_iOS:ios_about
+[ios_about]: ../5_iOS/ios_about.md

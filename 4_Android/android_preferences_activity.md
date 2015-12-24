@@ -1,3 +1,10 @@
+---
+uri: android-camera-preferences
+meta_title: Android Camera Preferences
+menu_title: Camera Preferences
+description: The provided examples incorporate a user-adjustable camera preferences screen.
+---
+
 #Android Camera Preferences
 The provided examples incorporate a user-adjustable camera preferences screen. There are two key preferences implemented- Firstly, on devices with more than one camera, the choice of camera, and secondly, the camera resolution.
 
@@ -45,14 +52,14 @@ The suggested method of invoking the preferences activity is to make it availabl
     import android.view.Menu;
     import android.view.MenuInflater;
     import android.view.MenuItem;
-    
+
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         MenuInflater inflater = getMenuInflater();
         inflater.inflate(R.menu.options, menu);
         return true;
     }
-    
+
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         if (item.getItemId() == R.id.settings) {
@@ -104,4 +111,4 @@ These resources are automatically available in any project referring to ARBaseLi
 ##A Note on Camera Resolutions
 Take care when the user chooses camera resolutions. A camera resolution with a different aspect ratio to the aspect ratio of ARToolKit's [calibrated camera parameters][config_camera_calibration] (camera_para.dat or similar) will not track correctly!
 
-[config_camera_calibration]: 2_Configuration:config_camera_calibration
+[config_camera_calibration]: ../2_Configuration/config_camera_calibration.md

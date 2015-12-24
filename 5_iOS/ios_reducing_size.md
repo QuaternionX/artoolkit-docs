@@ -1,3 +1,10 @@
+---
+uri: reducing-the-size-of-an-ios-app
+meta_title: Reducing the Size of an iOS App
+menu_title: Reducing App Size
+description: It is always desirable to minimize the size of any binary distribution an application iOS, due to App Store cellular download limits.
+---
+
 #Reducing the Size of an iOS App
 It is always desirable to minimize the size of any binary distribution an application iOS, due to App Store cellular download limits.
 The easiest way to inspect where your footprint is coming from is to inspect the package itself. Locate the built app, and right-click on it and choose "Show package contents".
@@ -19,5 +26,5 @@ If trying to reduce the size of data files included with your application, pay p
 -   Compress all sound files.
 -   Reduce number of polygons in models.
 
-[show_package_contents]: :arapp_-_show_package_contents.png
+[show_package_contents]: ../_media/arapp_-_show_package_contents.png
 [ios_device_compatibility]:https://developer.apple.com/library/ios/documentation/DeviceInformation/Reference/iOSDeviceCompatibility/DeviceCompatibilityMatrix/DeviceCompatibilityMatrix.html

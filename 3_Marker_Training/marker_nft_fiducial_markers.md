@@ -1,3 +1,10 @@
+---
+uri: natural-feature-tracking-with-fiducial-markers
+meta_title: Natural Feature Tracking With Fiducial Markers
+menu_title: NFT with Fiducial Markers
+description: Although ARToolKit offers full markerless tracking, there are some situations where using one or more markers as part of an image is worthwhile.
+---
+
 #NFT with Fiducial Markers
 Although ARToolKit offers full markerless tracking, there are some situations where using one or more [markers][marker_about] as part of an image is worthwhile:
 

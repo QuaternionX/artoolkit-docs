@@ -1,3 +1,10 @@
+---
+uri: building-libarvideo-in-windows-and-os-x
+meta_title: Building libARvideo in Windows and OS X
+menu_title: Building libARvideo
+description: ARToolKit uses video libraries as a standardized way of accessing video capture hardware (like webcams) on your computer. On Windows, you have the option of using QuickTime or DirectShow. On OS X, we use QuickTime.
+---
+
 # Building libARvideo
 
 ## What is the relationship between libARvideo and a Video Library?
@@ -68,6 +75,6 @@ If you are having difficulty with these instructions, please post a message on t
 [4a]: http://msdn.microsoft.com/en-us/xna/aa937788.aspx
 [5a]: http://www.microsoft.com/downloads/details.aspx?FamilyID=0baf2b35-c656-4969-ace8-e4c0c0716adb&DisplayLang=en
 [6a]: http://www.microsoft.com/express/support/support-faq.aspx
-[Adding_DirectShow_SDK_to_Visual_Studio_path_1]: :adding_directshow_sdk_to_visual_studio_path_1.png
-[Adding_DirectShow_SDK_to_Visual_Studio_path_2]: :adding_directshow_sdk_to_visual_studio_path_2.png
-[Adding_DirectShow_SDK_to_Visual_Studio_path_3]: :adding_directshow_sdk_to_visual_studio_path_3.png
+[Adding_DirectShow_SDK_to_Visual_Studio_path_1]: ../_media/adding_directshow_sdk_to_visual_studio_path_1.png
+[Adding_DirectShow_SDK_to_Visual_Studio_path_2]: ../_media/adding_directshow_sdk_to_visual_studio_path_2.png
+[Adding_DirectShow_SDK_to_Visual_Studio_path_3]: ../_media/adding_directshow_sdk_to_visual_studio_path_3.png

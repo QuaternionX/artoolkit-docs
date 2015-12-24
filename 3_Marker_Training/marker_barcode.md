@@ -1,3 +1,10 @@
+---
+uri: using-two-dimensional-barcode-markers
+meta_title: Using Two-Dimensional Barcode Markers
+menu_title: Using 2D Barcode Markers
+description: ARToolKit is well known for the appearance of its markers, or square markers with a black border, and with an arbitrary user-definable image in the interior. The Hiro marker used by default in the ARToolKit examples is an iconic example.
+---
+
 # Using 2D Barcode Markers
 ARToolKit is well known for the appearance of its [markers][marker_about]: square markers with a black border, and with an arbitrary user-definable image in the interior. The "Hiro" marker used by default in the ARToolKit examples is an iconic example.
 
@@ -33,6 +40,6 @@ The default barcode size for 2D-barcode markers in ARToolKit is a 3x3 pattern. A
 
 For more information on multi-markers, including their configuration, visit the [multi-marker page][marker_multi].
 
-[marker_about]: 3_Marker_Training:marker_about
-[marker_multi]: 3_Marker_Training:marker_multi
-[build_artoolkit]: 8_Advanced_Topics:build_artoolkit
+[marker_about]: ../3_Marker_Training/marker_about.md
+[marker_multi]: ../3_Marker_Training/marker_multi.md
+[build_artoolkit]: ../8_Advanced_Topics/build_artoolkit.md
