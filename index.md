@@ -14,16 +14,11 @@ Each of the individual platform downloads include a README file and example appl
 
 ## Features
 
-<div class="feature_list">
-<div class="feature">
-
 ![modular code][modular]
 
 #### Transparent, Modular Code
 
 Complete access to the computer vision algorithm allows you to modify the source code to fit your specific application.
-</div>
-<div class="feature">
 
 ![cross platform development friendly][cross_platform]
 
@@ -31,17 +26,11 @@ Complete access to the computer vision algorithm allows you to modify the source
 
 ARToolKit has compiled SDKs for Windows, Mac OS, Linux, iOS and Android all ready to download and use.
 
-</div>
-<div class="feature">
-
 ![mobile development focused][mobile]
 
 #### Mobile Focused
 
 OpenGL ES2.x support, sensor integration and automatic camera calibration utilities ease the development process.
-
-</div>
-<div class="feature">
 
 ![natural feature tracking][nft]
 
@@ -49,17 +38,11 @@ OpenGL ES2.x support, sensor integration and automatic camera calibration utilit
 
 Traditional square markers, barcodes or regular images can be used as targets.
 
-</div>
-<div class="feature">
-
 ![stereo and optical see-though][optical]
 
 #### Stereo and Optical See-Through
 
 ARToolKit supports a wide range of smart glasses and is easy to calibrate for new devices.
-
-</div>
-<div class="feature">
 
 ![unity logo][unity]
 
@@ -67,26 +50,17 @@ ARToolKit supports a wide range of smart glasses and is easy to calibrate for ne
 
 Unity users can publish a single AR application to all Desktop and mobile platforms.
 
-</div>
-<div class="feature">
-
 ![openscenegraph][osg]
 
 #### Full OpenSceneGraph Support
 
 Support for the advanced rendering features of OSG gives a wide range of rendering and model format options.
 
-</div>
-<div class="feature">
-
 ![calibration tools][tools]
 
 #### Tools Accelerate Development Time
 
 Tools are provided for camera calibration, barcode/NFT marker generation and optical/stereo calibration.
-
-</div>
-</div>
 
 ## About The Documentation
 
