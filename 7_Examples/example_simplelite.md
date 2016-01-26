@@ -5,17 +5,23 @@ menu_title: simpleLite
 description: Among the variety of example applications that are bundled with ARToolKit, simpleLite is the most straight-forward.
 ---
 
-#simpleLite - First Example
-Among the variety of example applications that are bundled with ARToolKit, simpleLite is the most straight-forward. When you [install ARToolKit][about_installing], you can find it with the other example applications in the `bin` directory. More examples, and explanations of their techniques can be found from the sidebar category "Examples".
+#simpleLite - The First Example Application to Look At
+Among the variety of example applications that are bundled with ARToolKit, simpleLight is the most straight-forward. The application is an example of traditional template marker tracking. It uses very simple marker embedded with a blank (white)  marker image. When you [install ARToolKit][about_installing], you can find it with the other example applications in the `bin` directory. More examples, and explanations of their techniques can be found from the sidebar category "Examples".
 
-##Running simpleLite
-Running the simpleLite example is one of the most straight-forward ways to test that your ARToolKit installation is functioning correctly. It is recommended you do this when you install a new version of ARToolKit.
+###What To Expect From From simpleLite
+After executing the application, the device's webcam is activated and scans the captured video stream for the preconfigured marker mentioned above. When the marker is recognized within the webcam's view, simpleLite tracks and superimposes a multi-colored, three dimensional, cube onto the marker's video image. The cube is tracked, aligned and affixed to the displayed video stream.
+
+###Simple ARToolKit Testing Using simpleLite
+Running the simpleLight example application is one of the most straight-forward ways to test that your ARToolKit SDK installation is functioning correctly. It is recommended you do this when you install a new version of ARToolKit SDK.
+
+##Executing simpleLite
+Before starting the simpleLight application, print out the marker file using a high printer resolution or quality settings and using the A4 or Letter paper size setting. Also set the printer settings to scale the image to fit, scaling up the image to its maximum size on the paper, keeping a square aspect ratio (1:1). The marker file to print: `[ARToolKit root]/doc/patterns/Blank pattern.png`.
 
 ### Windows:
-simpleLite can be opened by double-clicking its icon in the `%ARTOOLKIT5_ROOT%\bin` directory or from the same directory from the command line (cmd.exe) by entering `simpleLite.exe`.
+simpleLite can be opened by double-clicking its icon in the `[ARToolKit root]\bin` directory or from the same directory from the command line (cmd.exe) by entering `simpleLite.exe`.
 
 ### Mac OS X:
-Bundled applications are generated for the examples. Open the "bin" directory in the Finder and double-click the "simpleLite" example app.
+Bundled applications are generated for the examples. Open the `[ARToolKit root]/bin` directory in the Finder and double-click the `simpleLite.app` example app.
 
 ### Linux:
 The simpleLite application can be launched from a terminal window by entering `./simpleLite` from its directory.
@@ -64,13 +70,13 @@ Next, we see the first AR-specific function call:
     // Hardware setup.
     //
 
-    if (!setupCamera(cparam_name, vconf, gARTThreshhold, &gARTCparam, &gARHandle, &gAR3DHandle)) {
+    if (!setupCamera(cparam_name, vconf, gARTThreshold, &gARTCparam, &gARHandle, &gAR3DHandle)) {
         fprintf(stderr, "main(): Unable to set up AR camera.\n");
         exit(-1);
     }
 </pre>
 
-setupCamera loads a file containing calibration parameters for a camera, opens a connection to the camera, sets some defaults (the binarization threshhold in this case) and starts grabbing frames. It records its settings into 3 variables which are passed in as parameters. In our case, we will store these parameters in global variables. setupCamera is explained more fully below.
+setupCamera loads a file containing calibration parameters for a camera, opens a connection to the camera, sets some defaults (the binarization threshold in this case) and starts grabbing frames. It records its settings into 3 variables which are passed in as parameters. In our case, we will store these parameters in global variables. setupCamera is explained more fully below.
 
 The next piece of code opens up a window for us to draw into. This code uses GLUT to open the window. Later, we will install some event handlers for the window, to handle redrawing, resizing etc.
 <pre>
@@ -116,7 +122,7 @@ Before entering a real-time tracking and drawing state, we need to initialize th
 
 setupCamera begins by opening a connection to the video camera from which images for tracking will be acquired, using `arVideoOpen()`. The parameter vconf, passed to arVideoOpen is a string that can be used to request some video configuration other than the default. The contents of the vconf string are dependent on the video library being used. More information can be found in [Configuring video capture in ARToolKit][3] At this point we also find out from the video camera library how big the images it will supply will be, and what pixel format will be used:
 <pre>
-    static int setupCamera(const char *cparam_name, char *vconf, int threshhold, ARParam *cparam, ARHandle **arhandle, AR3DHandle **ar3dhandle)
+    static int setupCamera(const char *cparam_name, char *vconf, int threshold, ARParam *cparam, ARHandle **arhandle, AR3DHandle **ar3dhandle)
     {
         ARParam         wparam;
         int             xsize, ysize;
@@ -163,13 +169,13 @@ Once the camera parameters are loaded, we adjust them to match the actual video 
         }
 </pre>
 
-We complete our setupCamera by setting up some defaults related to the tracking portion of ARToolKit. These include debug mode, the labelling threshhold, and the structure used to hold positions of detected patterns. Finally, we start the video library capturing frames, since we will soon be ready to process them:
+We complete our setupCamera by setting up some defaults related to the tracking portion of ARToolKit. These include debug mode, the labelling threshold, and the structure used to hold positions of detected patterns. Finally, we start the video library capturing frames, since we will soon be ready to process them:
 <pre>
         if (arSetDebugMode(*arhandle, AR_DEBUG_DISABLE) < 0) {
             fprintf(stderr, "setupCamera(): Error: arSetDebugMode.\n");
             return (FALSE);
         }
-        if (arSetLabelingThresh(*arhandle, threshhold) < 0) {
+        if (arSetLabelingThresh(*arhandle, threshold) < 0) {
             fprintf(stderr, "setupCamera(): Error: arSetLabelingThresh.\n");
             return (FALSE);
         }
@@ -359,5 +365,4 @@ At this stage, have a play with the simpleLite code. When you are ready, come ba
 [config_camera_calibration]: ../2_Configuration/config_camera_calibration.md
 [config_video_capture]:0 ../2_Configuration/config_video_capture.md
 [about_installing]: ../1_Getting_Started/about_installing.md
-
 [SimpleLite320x240Mac]: ../_media/simplelite320x240mac.png
