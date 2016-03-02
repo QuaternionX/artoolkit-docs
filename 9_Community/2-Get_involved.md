@@ -1,14 +1,17 @@
 #Get involved
-To get involved there are a few steps you need to do and a few procedures that you should be aware of but happen in the background.
+To get involved there are a few steps you need to do and a few procedures that you should be aware of, but happen in the background.
 
 ##Check out the source code
 1. To contribute to the ARToolKit codebase, no matter if fixing or enhancing a sample app or the ARToolKit codebase itself, you need to have an account on [GitHub](https://github.com/join?source=header-home "Join GitHub").
-2. Fork the public https://github.com/artoolkit/artoolkit5.git repository
+2. Fork the public https://github.com/artoolkit/artoolkit5.git repository for the base toolkit, or https://github.com/artoolkit/arunity5.git for the Unity plugin.
   - For documentation on how to fork and on how to keep your fork up-to-date with the master see the this documentation https://help.github.com/articles/fork-a-repo/
-  - Remember to re-sync against the remote master branch often, keep your changes small, push to remote and generate pull requests often. We want to avoid big bang pull requests. Also `git rebasing` your change set on top of the current master tip is always preferred over merging which may result in merge bubbles.
-3. Do your work in whatever branch you want to in your fork.
-4. Push to your fork.
-5. When your work is done synchronize your branch with the ARToolKit master repository. To do so follow these steps:
+3. We recommend setting an `upstream` remote to the main repo from your fork.
+  - As an example, to add the main ARToolKit5 repo as a remote, type `git remote add upstream https://github.com/artoolkit/artoolkit5.git` into your git terminal.
+  - Remember to re-sync (`git pull upstream`) against the remote master branch often.
+4. Do your work in whatever branch you want to in your fork.
+  -  Try to keep your changes small, push your work remote (`git push`), and generate pull requests often. We want to avoid big bang pull requests. 
+  -  Also, `git rebasing` your change set on top of the current master tip is always preferred over merging which may result in merge bubbles.
+5. When all your work is done and pushed up, synchronize your branch with the ARToolKit master repository. To do so follow these steps:
 	1. Ensure that you have checked out the branch you would like to commit. You can verify this with: `git branch` and switch to your branch with `git checkout [BRANCH_NAME]` if needed.
 	2. Get changes from the original repo: `git fetch upstream`
 	3. Rebase your changes on top of the latest ARToolKit master changes:  `git rebase upstream/master`
