@@ -14,7 +14,7 @@ Before starting the simpleLight application, print out the marker file using a h
 simpleLite can be opened by double-clicking its icon in the `[ARToolKit root]\bin` directory or from the same directory from the command line (cmd.exe) by entering `simpleLite.exe`.
 
 ### Mac OS X:
-Bundled applications are generated for the examples. Open the `[ARToolKit root]/bin` directory in the Finder and double-click the `simpleLite.app` example app.
+Bundled applications are generated for the examples. Open the `[ARToolKit root]/bin` directory in the Finder. Control-click the `simpleLite.app` example app, and press Open in the ensuing dialog.
 
 ### Linux:
 The simpleLite application can be launched from a terminal window by entering `./simpleLite` from its directory.
